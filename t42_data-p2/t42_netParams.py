@@ -226,7 +226,7 @@ if cfg.connectPCPVBC:
     'synMech': 'PC-PVBC',
     'synsPerConn': 
         'int(binomial(int(pcscalenum*6*pc_pv_synfact),pc_pv_conprob))',
-    'weight': 'uniform(0.3,0.9)*np_pc_pv_wei',
+    'weight': 'uniform(0.3,0.7)*np_pc_pv_wei',
  	'sec': 'basal'
      }
 
