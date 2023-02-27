@@ -1,0 +1,185 @@
+numprocs=10
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Loading file t42_data/t42_0_cfg.json ... 
+Loading simConfig...
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Loading file t42_data/t42_0_cfg.json ... 
+Loading simConfig...
+	1 
+	1 
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Loading file t42_data/t42_0_cfg.json ... 
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Loading file t42_data/t42_0_cfg.json ... 
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Loading file t42_data/t42_0_cfg.json ... 
+Loading file t42_data/t42_0_cfg.json ... 
+Loading simConfig...
+Loading simConfig...
+Loading simConfig...
+Loading simConfig...
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Loading file t42_data/t42_0_cfg.json ... 
+Loading file t42_data/t42_0_cfg.json ... 
+Loading simConfig...
+Loading simConfig...
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Loading file t42_data/t42_0_cfg.json ... 
+Loading simConfig...
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Loading file t42_data/t42_0_cfg.json ... 
+Loading simConfig...
+	1 
+	1 
+	1 
+	1 
+	1 
+	1 
+	1 
+	1 
+Target stub axon length:60 um, equivalent length: 59.223553 
+Target stub axon length:60 um, equivalent length: 59.223553 
+	1 
+	1 
+Target stub axon length:60 um, equivalent length: 59.223553 
+Target stub axon length:60 um, equivalent length: 59.223553 
+Target stub axon length:60 um, equivalent length: 59.223553 
+Target stub axon length:60 um, equivalent length: 59.223553 
+Target stub axon length:60 um, equivalent length: 59.223553 
+	1 
+Target stub axon length:60 um, equivalent length: 59.223553 
+Target stub axon length:60 um, equivalent length: 59.223553 
+Target stub axon length:60 um, equivalent length: 59.223553 
+	1 
+	1 
+	1 
+	1 
+	1 
+	1 
+	1 
+Target stub axon length:60 um, equivalent length: 60.490137 
+	1 
+Target stub axon length:60 um, equivalent length: 60.490137 
+Target stub axon length:60 um, equivalent length: 57.954581 
+Importing netParams from t42_data/t42_netParams.py
+	1 
+Target stub axon length:60 um, equivalent length: 57.954581 
+Importing netParams from t42_data/t42_netParams.py
+Target stub axon length:60 um, equivalent length: 60.490137 
+Target stub axon length:60 um, equivalent length: 60.490137 
+	1 
+	1 
+Target stub axon length:60 um, equivalent length: 57.954581 
+Target stub axon length:60 um, equivalent length: 60.490137 
+Target stub axon length:60 um, equivalent length: 60.490137 
+Target stub axon length:60 um, equivalent length: 57.954581 
+Target stub axon length:60 um, equivalent length: 60.490137 
+Target stub axon length:60 um, equivalent length: 60.490137 
+Importing netParams from t42_data/t42_netParams.py
+Target stub axon length:60 um, equivalent length: 60.490137 
+Target stub axon length:60 um, equivalent length: 60.490137 
+Importing netParams from t42_data/t42_netParams.py
+	1 
+	1 
+	1 
+	1 
+Target stub axon length:60 um, equivalent length: 57.954581 
+Target stub axon length:60 um, equivalent length: 57.954581 
+Target stub axon length:60 um, equivalent length: 57.954581 
+	1 
+	1 
+Importing netParams from t42_data/t42_netParams.py
+Target stub axon length:60 um, equivalent length: 57.954581 
+Importing netParams from t42_data/t42_netParams.py
+
+Start time:  2023-02-27 14:26:50.198522
+Importing netParams from t42_data/t42_netParams.py
+Target stub axon length:60 um, equivalent length: 57.954581 
+Target stub axon length:60 um, equivalent length: 57.954581 
+Importing netParams from t42_data/t42_netParams.py
+Importing netParams from t42_data/t42_netParams.py
+Importing netParams from t42_data/t42_netParams.py
+
+Creating network of 3 cell populations on 10 hosts...
+  Number of cells on node 6: 0 
+  Number of cells on node 4: 1 
+  Number of cells on node 3: 1 
+  Number of cells on node 7: 0 
+  Number of cells on node 0: 1 
+  Done; cell creation time = 0.60 s.
+Making connections...
+  Number of cells on node 9: 0 
+  Number of cells on node 8: 0 
+  Number of cells on node 2: 1 
+  Number of cells on node 1: 1 
+  Number of cells on node 5: 0 
+  Number of connections on node 9: 0 
+  Number of connections on node 8: 0 
+  Number of connections on node 2: 0 
+  Number of connections on node 1: 0 
+  Number of connections on node 7: 0 
+  Number of connections on node 6: 0 
+  Number of connections on node 3: 0 
+  Number of connections on node 0: 0 
+  Number of connections on node 5: 0 
+  Number of connections on node 4: 4 
+  Number of synaptic contacts on node 4: 50 
+  Done; cell connection time = 0.00 s.
+Adding stims...
+  Number of stims on node 9: 0 
+  Number of stims on node 4: 6 
+  Number of stims on node 8: 0 
+  Number of stims on node 7: 0 
+  Number of stims on node 5: 0 
+  Number of stims on node 6: 0 
+  Number of stims on node 0: 480 
+  Number of stims on node 3: 690 
+  Number of stims on node 2: 690 
+  Number of stims on node 1: 690 
+  Done; cell stims creation time = 0.09 s.
+Recording 0 traces of 0 types on node 1
+Recording 0 traces of 0 types on node 3
+Recording 0 traces of 0 types on node 2
+Recording 0 traces of 0 types on node 0
+Recording 0 traces of 0 types on node 9
+Recording 0 traces of 0 types on node 5
+Recording 0 traces of 0 types on node 6
+Recording 0 traces of 0 types on node 8
+Recording 0 traces of 0 types on node 7
+Recording 31 traces of 31 types on node 4
+
+Running simulation for 600.0 ms...
+  Done; run time = 6.29 s; real-time ratio: 0.10.
+
+Gathering data...
+  Done; gather time = 0.81 s.
+
+Analyzing...
+  Cells: 5
+  Connections: 8 (1.60 per cell)
+  Synaptic contacts: 2600 (520.00 per cell)
+  Spikes: 5 (1.67 Hz)
+  Simulated time: 0.6 s; 10 workers
+  Run time: 6.29 s
+Saving output as t42_data/t42_0.json  ... 
+Finished saving!
+  Done; saving time = 1.82 s.
+Plotting raster...
+Plotting recorded cell traces ... cell
+  Done; plotting time = 1.23 s
+
+Total time = 11.53 s
+
+End time:  2023-02-27 14:27:01.728560

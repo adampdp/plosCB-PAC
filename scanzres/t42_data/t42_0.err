@@ -1,0 +1,22 @@
+NEURON -- VERSION 7.8.2 HEAD (09b151ec) 2020-12-16
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2019
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ "mechanisms/cacumm.mod" "mechanisms/cagk.mod" "mechanisms/cal2.mod" "mechanisms/can2.mod" "mechanisms/cat.mod" "mechanisms/DetAMPANMDA.mod" "mechanisms/DetGABAAB.mod" "mechanisms/h.mod" "mechanisms/kadist.mod" "mechanisms/kaprox.mod" "mechanisms/kca.mod" "mechanisms/kdb.mod" "mechanisms/kdrbca1.mod" "mechanisms/kdrca1.mod" "mechanisms/kmb.mod" "mechanisms/na3n.mod" "mechanisms/naxn.mod" "mechanisms/vecevent.mod"
+>>> >>> >>> >>> >>> 
+
+
+
+
+>>> 
+>>> >>> >>> 
+
+
+>>> --------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 2 with PID 0 on node adaminsp exited on signal 15 (Terminated).
+--------------------------------------------------------------------------

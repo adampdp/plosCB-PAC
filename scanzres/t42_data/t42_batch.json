@@ -1,0 +1,29 @@
+{
+    "batch": {
+        "batchLabel": "t42",
+        "cfgFile": "t42_cfg.py",
+        "evolCfg": {
+            "fitnessFunc": "removed"
+        },
+        "initCfg": {},
+        "method": "grid",
+        "netParamsFile": "t42_netParams.py",
+        "params": [
+            {
+                "label": "seedval",
+                "values": [
+                    576667
+                ]
+            }
+        ],
+        "runCfg": {
+            "cores": 10,
+            "mpiCommand": "mpiexec --use-hwthread-cpus",
+            "script": "t42_init.py",
+            "skip": true,
+            "type": "mpi_direct"
+        },
+        "saveFolder": "t42_data",
+        "seed": null
+    }
+}

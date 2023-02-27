@@ -1,0 +1,330 @@
+{
+    "simConfig": {
+        "OLMsomaDist": 250,
+        "PVBCsomaDist": 50,
+        "addSynMechs": true,
+        "allowConnsWithWeight0": true,
+        "allowSelfConns": false,
+        "alv_olm_synfact": 138,
+        "alv_pv_synfact": 80,
+        "alvclamptarg": "PYR",
+        "alvsomaclampamp": 0.3,
+        "analysis": {
+            "plotRaster": {
+                "include": [
+                    "artif_pyr",
+                    "PYR_pop",
+                    "PVBC_pop",
+                    "OLM_pop"
+                ],
+                "marker": "o",
+                "markerSize": 6,
+                "saveFig": true,
+                "showFig": false
+            },
+            "plotTraces": {
+                "include": [
+                    4
+                ],
+                "saveFig": false,
+                "showFig": false
+            }
+        },
+        "artifperpyr": 100,
+        "artifpyrpars": {
+            "artif_duration": 600,
+            "artif_starttime": 0,
+            "artifperpyr": 100,
+            "artifpyrat": 50,
+            "artifsynfact": 6,
+            "artifsynmech": "PC-PCzero",
+            "call_shift_fac": 0,
+            "doartif": false,
+            "field_delay": 0,
+            "grefract": 0,
+            "gshape": 1,
+            "hi_gscale_d": 688.0,
+            "hi_gscale_u": 688.0,
+            "inp_downtime_start": 60000,
+            "inp_uptime_start": 60000,
+            "lo_gscale_d": 688.0,
+            "lo_gscale_u": 688.0,
+            "namestr": "_pyrart",
+            "npartifwei_hi": 0.65,
+            "npartifwei_low": 0.55,
+            "pyrpopsize": 1,
+            "scalesep": 0
+        },
+        "backupCfgFile": [],
+        "cache_efficient": false,
+        "checkErrors": false,
+        "checkErrorsVerbose": false,
+        "compactConnFormat": false,
+        "connRandomSecFromList": true,
+        "connectOLMPC": true,
+        "connectPC2PC": false,
+        "connectPCOLM": false,
+        "connectPCPVBC": false,
+        "connectPVBC2PVBC": false,
+        "connectPVBCPC": true,
+        "createNEURONObj": true,
+        "createPyStruct": true,
+        "cvode_active": true,
+        "cvode_atol": 0.001,
+        "distributeSynsUniformly": false,
+        "doAlvPYRclamp": true,
+        "doAlvstim": true,
+        "dt": 0.025,
+        "duration": 600,
+        "filename": "model_output",
+        "gatherOnlySimData": false,
+        "hParams": {
+            "celsius": 34,
+            "v_init": -65
+        },
+        "includeParamsLabel": true,
+        "invertedYCoord": true,
+        "olm2pcDep": 1770,
+        "olm2pcFac": 6,
+        "olm_pc_conprob": 1,
+        "olm_pc_gaba_tau": 18,
+        "olm_pc_hibound": 5.5,
+        "olm_pc_lobound": 4.1,
+        "olm_pc_synfact": 1,
+        "olm_pc_wei": 0.25,
+        "olmdepfact": 38,
+        "olmfacfact": 470,
+        "olmpopsize": 3,
+        "olmscalenum": 1,
+        "oneSynPerNetcon": true,
+        "pc_olm_conprob": 1,
+        "pc_olm_hibound": 0.7,
+        "pc_olm_lowbound": 0.5,
+        "pc_olm_sec": "basal",
+        "pc_olm_synfact": 1,
+        "pc_olm_use": 0.07,
+        "pc_olm_wei": 0.5,
+        "pc_pc_conprob": 1,
+        "pc_pc_synfact": 1,
+        "pc_pv_conprob": 1,
+        "pc_pv_synfact": 1,
+        "pc_pv_wei": 1,
+        "pcscalenum": 1,
+        "printPopAvgRates": false,
+        "printRunTime": false,
+        "printSynsAfterRule": false,
+        "pt3dRelativeToCellLocation": true,
+        "pv_pc_conprob": 1,
+        "pv_pc_gaba_tau_fact": 1,
+        "pv_pc_synfact": 1,
+        "pv_pc_wei": 1,
+        "pvbc2pcDep": 965,
+        "pvbc2pcFac": 8.6,
+        "pvbc_pvbc_conprob": 1,
+        "pvbc_pvbc_synfact": 1,
+        "pvbcdep": 110,
+        "pvbcfac": 0,
+        "pvbcpopsize": 1,
+        "pvscalenum": 1,
+        "pyrpopsize": 1,
+        "rand123GlobalIndex": null,
+        "recordCells": [],
+        "recordCellsSpikes": -1,
+        "recordDipoles": false,
+        "recordLFP": [],
+        "recordStep": 1,
+        "recordStim": false,
+        "recordTime": true,
+        "recordTraces": {
+            "V_apic_0": {
+                "loc": 0.5,
+                "sec": "apic_0",
+                "var": "v"
+            },
+            "V_apic_12": {
+                "loc": 0.5,
+                "sec": "apic_12",
+                "var": "v"
+            },
+            "V_apic_15": {
+                "loc": 0.5,
+                "sec": "apic_15",
+                "var": "v"
+            },
+            "V_apic_18": {
+                "loc": 0.5,
+                "sec": "apic_18",
+                "var": "v"
+            },
+            "V_apic_21": {
+                "loc": 0.5,
+                "sec": "apic_21",
+                "var": "v"
+            },
+            "V_apic_24": {
+                "loc": 0.5,
+                "sec": "apic_24",
+                "var": "v"
+            },
+            "V_apic_27": {
+                "loc": 0.5,
+                "sec": "apic_27",
+                "var": "v"
+            },
+            "V_apic_3": {
+                "loc": 0.5,
+                "sec": "apic_3",
+                "var": "v"
+            },
+            "V_apic_30": {
+                "loc": 0.5,
+                "sec": "apic_30",
+                "var": "v"
+            },
+            "V_apic_33": {
+                "loc": 0.5,
+                "sec": "apic_33",
+                "var": "v"
+            },
+            "V_apic_36": {
+                "loc": 0.5,
+                "sec": "apic_36",
+                "var": "v"
+            },
+            "V_apic_39": {
+                "loc": 0.5,
+                "sec": "apic_39",
+                "var": "v"
+            },
+            "V_apic_42": {
+                "loc": 0.5,
+                "sec": "apic_42",
+                "var": "v"
+            },
+            "V_apic_45": {
+                "loc": 0.5,
+                "sec": "apic_45",
+                "var": "v"
+            },
+            "V_apic_48": {
+                "loc": 0.5,
+                "sec": "apic_48",
+                "var": "v"
+            },
+            "V_apic_51": {
+                "loc": 0.5,
+                "sec": "apic_51",
+                "var": "v"
+            },
+            "V_apic_54": {
+                "loc": 0.5,
+                "sec": "apic_54",
+                "var": "v"
+            },
+            "V_apic_57": {
+                "loc": 0.5,
+                "sec": "apic_57",
+                "var": "v"
+            },
+            "V_apic_6": {
+                "loc": 0.5,
+                "sec": "apic_6",
+                "var": "v"
+            },
+            "V_apic_9": {
+                "loc": 0.5,
+                "sec": "apic_9",
+                "var": "v"
+            },
+            "V_dend_0": {
+                "loc": 0.5,
+                "sec": "dend_0",
+                "var": "v"
+            },
+            "V_dend_10": {
+                "loc": 0.5,
+                "sec": "dend_10",
+                "var": "v"
+            },
+            "V_dend_12": {
+                "loc": 0.5,
+                "sec": "dend_12",
+                "var": "v"
+            },
+            "V_dend_14": {
+                "loc": 0.5,
+                "sec": "dend_14",
+                "var": "v"
+            },
+            "V_dend_16": {
+                "loc": 0.5,
+                "sec": "dend_16",
+                "var": "v"
+            },
+            "V_dend_18": {
+                "loc": 0.5,
+                "sec": "dend_18",
+                "var": "v"
+            },
+            "V_dend_2": {
+                "loc": 0.5,
+                "sec": "dend_2",
+                "var": "v"
+            },
+            "V_dend_4": {
+                "loc": 0.5,
+                "sec": "dend_4",
+                "var": "v"
+            },
+            "V_dend_6": {
+                "loc": 0.5,
+                "sec": "dend_6",
+                "var": "v"
+            },
+            "V_dend_8": {
+                "loc": 0.5,
+                "sec": "dend_8",
+                "var": "v"
+            },
+            "V_soma": {
+                "loc": 0.5,
+                "sec": "soma_0",
+                "var": "v"
+            }
+        },
+        "saveCSV": false,
+        "saveCellConns": true,
+        "saveCellSecs": true,
+        "saveDat": false,
+        "saveDataInclude": [
+            "netParams",
+            "netCells",
+            "netPops",
+            "simConfig",
+            "simData"
+        ],
+        "saveDpk": false,
+        "saveFileStep": 1000,
+        "saveFolder": "t42_data",
+        "saveHDF5": false,
+        "saveJson": true,
+        "saveLFPCells": false,
+        "saveMat": false,
+        "savePickle": false,
+        "saveTiming": false,
+        "scanz_fval": 10,
+        "scanz_stimtotnum": 3,
+        "seeds": {
+            "conn": 7557,
+            "loc": 985,
+            "stim": 84373
+        },
+        "seedval": 576667,
+        "simLabel": "t42_0",
+        "starttime": 300,
+        "timestampFilename": false,
+        "timing": true,
+        "tstop": 1000.0,
+        "verbose": false
+    }
+}
