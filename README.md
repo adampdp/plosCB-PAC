@@ -23,9 +23,9 @@ To run the code using mpi-exec: (1) Remove or rename the directory t42_data (whi
 
 To run the code directly: (1) On the command line: 'nrniv -python t42_init.py'. In this case new directories are not created. Results files are in the working directory.
 
-On completion of the small simulation the file maketrace.py can be run to recreate the results in Fig1C. Set the flag asBatch = True if the simulation was run using mpi-exec.
+On completion of the small simulation the file maketrace.py in the 'scanzres' directory can be run to recreate the results in Fig1C. Set the flag asBatch = True if the simulation was run using mpi-exec.
 
-On completion of large simulations the file analysis2.py can be run to recreate single network simulation results in Fig2 of the paper. 
+On completion of large simulations the file analysis2.py in the 'Fig2data' can be run to recreate single network simulation statistical analysis as those in Fig2 of the paper. This directory also contains the simulation data for the simulation shown in Fig2 of the paper. 
 
 Questions on how to use this model should be directed to adam.ponzi@ibf.cnr.it
 
