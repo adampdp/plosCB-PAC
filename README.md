@@ -15,9 +15,17 @@ Compile the mod files on the command line with 'nrnivmodl mechanisms'.
 
 Install the NetPyNE simulation environment (http://netpyne.org/install.html)
 
-To run the code using mpi-exec: (1) Remove or rename the directory t42_data (which is subsequently recreated when the code is run). (2) Set the numcores parameter in t42_batch.py to the required number of cores. (3) On the command line : 'nrniv -python t42_batch.py' (4) On completion, in the file maketrace.py set asBatch = True. Run maketrace.py.
+The directory 't42_data_p2' contains configuration files for the large network simulations. Note results in the paper for simulations with 120 or 480 PYR will require a supercomputer.
 
-To run the code directly: (1) On the command line: 'nrniv -python t42_init.py'. In this case new directories are not created. (2) On completion, in the file maketrace.py set asBatch = False. Run maketrace.py.
+The directory 'scanzres' contains configuration files for the small simulations to recreate the results in Fig1.
 
+To run the code using mpi-exec: (1) Remove or rename the directory t42_data (which is subsequently recreated when the code is run). (2) Set the numcores parameter in t42_batch.py to the required number of cores. (3) On the command line : 'nrniv -python t42_batch.py'  (4) Result files are in the new directory t42_data.
+
+To run the code directly: (1) On the command line: 'nrniv -python t42_init.py'. In this case new directories are not created. Results files are in the working directory.
+
+On completion of the small simulation the file maketrace.py can be run to recreate the results in Fig1C. Set the flag asBatch = True if the simulation was run using mpi-exec.
+
+On completion of large simulations the file analysis2.py can be run to recreate single network simulation results in Fig2 of the paper. 
 
 Questions on how to use this model should be directed to adam.ponzi@ibf.cnr.it
+
