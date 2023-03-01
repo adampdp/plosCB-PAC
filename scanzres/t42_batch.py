@@ -26,6 +26,8 @@ def batchTauWeight():
     b.saveFolder = 't42_data'
     b.method = 'grid'
     
+    
+    numcores = 10
     doslurm = False
     if doslurm:
     
@@ -33,18 +35,18 @@ def batchTauWeight():
                         #'type': 'mpi_bulletin',
                             'mpiCommand': 'srun',
                             'custom': '#SBATCH --constraint=mc\n#SBATCH --partition=normal',
-                            'allocation': 'ich011',
+                            'allocation': '***',
                             'nodes': 2,
                             'coresPerNode': 35,
                             'script': 't42_init.py',
-                            'walltime': '24:00:00',
+                            'walltime': '1:00:00',
                             'skip': True}
     else:
    
 
     
         b.runCfg = {  'type': 'mpi_direct',
-                'cores': 10,
+                'cores': numcores,
                 'mpiCommand': 'mpiexec --use-hwthread-cpus',
                         'script': 't42_init.py',
                         'skip': True}

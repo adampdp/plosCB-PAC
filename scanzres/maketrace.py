@@ -19,7 +19,14 @@ apicnum = 6
 
 starttime = 300
 
-filename1 = dirs1 + '/t42_0' + '.json'
+asBatch = False
+
+if asBatch:
+   filename1 = dirs1 + '/t42_0' + '.json'
+else:   
+   filename1 = 'model_output.json'
+
+
 
 if os.path.isfile(filename1):
     with open(filename1) as f:
@@ -42,6 +49,18 @@ if os.path.isfile(filename1):
       plt.xlim(0,200)
       plt.plot(x1all[int(starttime-20):,0], 'k' , linewidth = 6, label = 'soma')
       plt.plot(x1all[int(starttime-20):,apicnum], 'xkcd:light blue',  linewidth = 6, label = 'apical')
+      pltaxis = True
+      
+      if pltaxis:
+        plt.grid(b=True, which='major')
+        plt.minorticks_on()
+        plt.grid(b=True, which='minor')
+        plt.ylabel('membrane potential (mV)')
+        plt.xlabel('time (ms)')
+      else:
+        plt.axis('off')
     
-      plt.savefig(dirs1 + '/traces2' +  '.png', transparent  = True)
-
+      if asBatch:
+         plt.savefig(dirs1 + '/traces2' +  '.png', transparent  = True)
+      else:
+         plt.savefig('traces2' +  '.png', transparent  = True)  
